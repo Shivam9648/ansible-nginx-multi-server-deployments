@@ -1,1 +1,1 @@
-# ansible-nginx-multi-server-deployment
+# ansible-nginx-multi-server-deployments
