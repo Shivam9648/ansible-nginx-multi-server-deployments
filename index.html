@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Static Webpage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #4f46e5, #06b6d4);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 1.5rem;
+            text-align: center;
+            background: rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        main h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        main p {
+            font-size: 1.2rem;
+            max-width: 600px;
+        }
+
+        button {
+            background: white;
+            color: #4f46e5;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            margin-top: 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background: #e0e7ff;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: rgba(0,0,0,0.3);
+            padding: 1rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌐 My Cool Static Page</h1>
+    </header>
+
+    <main>
+        <h2>Welcome to My Web Development Demo</h2>
+        <p>This is a modern, responsive static web page built with pure HTML and CSS.  
+           No frameworks, no JavaScript — just clean and simple design.</p>
+        <button onclick="alert('Hello! You clicked the button! 🎉')">Click Me</button>
+    </main>
+
+    <footer>
+        &copy; 2025 My Cool Static Page | Built with ❤️ using HTML & CSS
+    </footer>
+
+</body>
+</html>
+
